@@ -1,0 +1,80 @@
+# THIS IS ONLY FOR THE gitattributes REPOSITORY.
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+# These files are text and should be normalized (Convert crlf => lf)
+*.gitattributes text
+.gitignore text
+
+# Source Files and their specific diff - DELPHI
+*.pas text diff=pascal
+*.po  text
+*.cfg text
+*.rc  text
+*.inc text
+*.dpk text
+*.txt text
+
+## These files are binary and should be left untouched - DELPHI
+*.dfm binary
+*.dpr binary
+*.dcr binary
+*.ddp binary
+*.dof binary
+*.res binary
+*.dcu binary
+*.ver binary
+*.r32 binary
+*.tlb binary
+
+# Other Types of project files can be added same way
+# Source Files and their specific diff - WEB
+*.php text
+*.css text
+*.sass text
+*.scss text
+*.less text
+*.styl text
+*.js text
+*.coffee text
+*.json text
+*.htm text
+*.html text
+*.xml text
+*.svg text
+*.txt text
+*.ini text
+*.inc text
+*.pl text
+*.rb text
+*.py text
+*.scm text
+*.sql text
+*.sh text
+*.bat text
+
+## These files are binary and should be left untouched - WEB
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.pyc binary
+*.pdf binary
