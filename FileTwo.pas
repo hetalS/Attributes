@@ -2,7 +2,7 @@ unit ListGrid;
 
 // Need to consolidate EditFieldName and LookupField, but not now... Too close to release!
 //   When schedule permits, change LookupField references to EditFieldName!!
-
+//Sample editing
 interface
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs
