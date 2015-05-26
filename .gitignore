@@ -2,5 +2,6 @@
 *.res
 *.dcu
 *.obj
+*.ddp
 ~$*
 *.log
