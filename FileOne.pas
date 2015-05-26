@@ -24,6 +24,8 @@ unit delstgdlg;
  20041027,cmh: Fixed incorrect multiple record settings. Ref. TD #6904
  20050906,ht : Remove condition of required compiler directives.
 }
+{Sample change}
+
 
 
 interface
