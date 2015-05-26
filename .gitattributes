@@ -11,7 +11,7 @@
 .gitignore text
 
 # Source Files and their specific diff - DELPHI
-*.pas text eol=lf diff=pascal
+*.pas text eol=crlf diff=pascal
 *.po  text
 *.cfg text
 *.rc  text
