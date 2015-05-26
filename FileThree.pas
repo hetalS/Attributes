@@ -28,6 +28,7 @@ unit Cfgprt;
  20060424,rtr: Refactoring to reduce unit dependencies.
 }
 
+{Sample Third line}
 
 interface
 uses
