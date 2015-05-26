@@ -25,6 +25,7 @@ unit delstgdlg;
  20050906,ht : Remove condition of required compiler directives.
 }
 {Sample change}
+{{Sample second line}
 
 
 
